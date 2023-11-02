@@ -1,0 +1,124 @@
+/*body style*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url("C:/Users/mbitu/OneDrive/Desktop/Websites/Quote-Flow-/Animation.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*header style*/
+  header {
+    display: flex;
+    align-items: center;
+    background-blend-mode: color-dodge;
+    
+  }
+  /*logo style*/
+  .logo{
+    width: 150px;
+    height: 150px;
+  }
+
+  /*h1 style*/
+  h1 {
+    font-size: 48px;
+    margin-left: 10px;
+    text-decoration: solid;
+    text-emphasis: bold;
+    text-decoration-line: underline;
+  }
+
+  /*main style*/
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  /*quote container style*/
+  .quote-container {
+    margin-top: 40px;
+    animation:none;
+    padding:3rem; 
+    animation: none;
+}
+
+  /*quote text  style*/
+  .quote-text {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  /*buttons style*/
+  .button-container {
+    margin-top: 20px;
+  }
+
+  .generate-btn,
+  .save-btn,
+  .share-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  /*buttons style*/
+  .generate-btn:hover,
+  .save-btn:hover,
+  .share-btn:hover {
+    background-color: #0056b3;
+  }
+
+  /*footer style*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: auto;
+}
+  /*footer content style*/
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+  @media screen and (max-width: 600px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    main {
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    .quote-container {
+      margin-top: 20px;
+    }
+  
+    .quote-text {
+      font-size: 20px;
+    }
+  
+    .button-container {
+      margin-top: 10px;
+    }
+  }
+ 
