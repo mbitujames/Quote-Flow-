@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("C:/Users/mbitu/OneDrive/Desktop/Websites/Quote-Flow-/Animation.png");
+    height:100vh;
     background-size: cover;
     background-position: center;
   }
